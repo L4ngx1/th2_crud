@@ -207,7 +207,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Smart Note - Nguyễn Xuân Lăng - 23510060459'),
+        title: const Text(
+          'Smart Note - Nguyễn Xuân Lăng - 23510060459',
+          style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+        ),
       ),
       body: Column(
         children: [
